@@ -1,0 +1,54 @@
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    background-color: #222;
+    padding: 20px;
+}
+
+/* All links */
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Remove bullet points */
+.navbar li {
+    list-style: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Hover effect */
+.navbar a:hover li {
+    background-color: #444;
+    color: #00bfff;
+}
+
+/* Active link */
+.navbar a.active li {
+    background-color: #00bfff;
+    color: white;
+}
+
+/* Individual links - optional */
+.navbar .home {
+    color: white;
+}
+
+.navbar .products {
+    color: white;
+}
+
+.navbar .about {
+    color: white;
+}
+
+.navbar .shop {
+    color: white;
+}
